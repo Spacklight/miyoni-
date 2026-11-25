@@ -1,0 +1,209 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="description" content="Miyoni is an independent technology brand founded by Roosevelt Chikwende in Malawi. Discover our digital products and vision.">
+<meta name="theme-color" content="#080b12">
+<title>Miyoni — Ideas into Technology</title>
+
+<style>
+*{margin:0;padding:0;box-sizing:border-box}
+html{scroll-behavior:smooth}
+body{font-family:Arial,sans-serif;background:#080b12;color:#f5f5f5;line-height:1.7}
+a{text-decoration:none;color:inherit}
+header{height:75px;display:flex;align-items:center;justify-content:space-between;padding:0 7%;background:#0b101b;border-bottom:1px solid #222;position:sticky;top:0;z-index:10}
+.logo{font-size:23px;font-weight:900;letter-spacing:4px;color:#fff}
+.logo span{color:#e8b85d}
+nav{display:flex;gap:28px;align-items:center}
+nav a{font-size:13px;color:#bbb}
+nav a:hover{color:#e8b85d}
+.menu{display:none;background:none;border:0;color:white;font-size:26px}
+.hero{min-height:570px;padding:110px 8%;display:flex;align-items:center;background:radial-gradient(circle at 80% 40%,#172b49,transparent 45%),#080b12}
+.hero-content{max-width:700px}
+.tag{color:#e8b85d;font-size:11px;letter-spacing:3px;font-weight:bold}
+h1{font-size:clamp(48px,8vw,85px);line-height:1.1;margin:25px 0;letter-spacing:-3px}
+h1 span,h2 span{color:#e8b85d}
+.hero p{max-width:550px;color:#b5bfce;font-size:17px}
+.btn{display:inline-block;background:#e8b85d;color:#111;padding:13px 23px;margin-top:30px;font-weight:bold;border-radius:3px}
+section{padding:90px 8%}
+.section-label{font-size:11px;color:#e8b85d;letter-spacing:3px;font-weight:bold}
+h2{font-size:clamp(34px,5vw,55px);line-height:1.2;margin:25px 0}
+.about-grid{display:grid;grid-template-columns:1fr 1fr;gap:55px;margin-top:25px}
+.about-grid p,.founder-text p{color:#aab4c3;margin-bottom:18px;font-size:15px}
+.products{background:#0d1420}
+.product-grid{display:grid;grid-template-columns:repeat(2,1fr);gap:20px;margin-top:40px}
+.card{padding:30px;background:#121d2d;border:1px solid #263449;border-radius:7px;transition:.25s}
+.card:hover{transform:translateY(-5px);border-color:#e8b85d}
+.number{color:#e8b85d;font-size:12px;letter-spacing:2px}
+.card h3{font-size:27px;margin:18px 0 5px}
+.card p{font-size:14px;color:#abb7c7;margin:12px 0}
+.card a{display:inline-block;color:#e8b85d;font-weight:bold;margin-top:15px;font-size:13px}
+.founder-grid{display:grid;grid-template-columns:1fr 1fr;gap:60px;align-items:center;margin-top:35px}
+.founder-image{width:100%;border-radius:5px;display:block}
+.founder-text h3{font-size:26px;margin:10px 0}
+.role{color:#e8b85d;font-size:13px;margin-bottom:20px}
+.quote{background:#121d2d;padding:65px 8%;text-align:center}
+.quote blockquote{font-size:clamp(24px,4vw,40px);font-weight:bold;max-width:850px;margin:auto}
+.quote p{color:#e8b85d;margin-top:20px}
+.vision{background:#0d1420}
+.vision p{max-width:650px;color:#aab4c3}
+.contact{text-align:center;background:#e8b85d;color:#111}
+.contact .section-label{color:#604719}
+.contact p{margin:15px auto;max-width:550px}
+.contact a{display:inline-block;background:#111827;color:white;padding:13px 25px;margin-top:20px}
+footer{padding:35px 8%;display:flex;justify-content:space-between;gap:15px;flex-wrap:wrap;color:#8995a6;font-size:12px}
+@media(max-width:700px){
+header{padding:0 5%}
+.menu{display:block}
+nav{display:none;position:absolute;top:75px;left:0;width:100%;background:#0b101b;padding:25px;flex-direction:column;align-items:flex-start}
+nav.open{display:flex}
+.hero{padding:85px 7%;min-height:500px}
+section{padding:70px 7%}
+.about-grid,.founder-grid,.product-grid{grid-template-columns:1fr;gap:25px}
+footer{flex-direction:column}
+}
+</style>
+</head>
+
+<body>
+
+<header>
+<a href="#" class="logo">MIYONI<span>.</span></a>
+<button class="menu" onclick="toggleMenu()">☰</button>
+<nav id="nav">
+<a href="#about">About</a>
+<a href="#products">Products</a>
+<a href="#founder">Founder</a>
+<a href="#vision">Vision</a>
+<a href="#contact">Contact</a>
+</nav>
+</header>
+
+<main>
+
+<div class="hero">
+<div class="hero-content">
+<div class="tag">AN INDEPENDENT TECHNOLOGY BRAND · MALAWI</div>
+<h1>Ideas become<br><span>technology.</span></h1>
+<p>We build digital products designed to make technology more useful, accessible and connected.</p>
+<a class="btn" href="#products">Explore our products ↗</a>
+</div>
+</div>
+
+<section id="about">
+<div class="section-label">01 / ABOUT MIYONI</div>
+<div class="about-grid">
+<div>
+<h2>A home for bold <span>digital ideas.</span></h2>
+</div>
+<div>
+<p>Miyoni is an independent technology brand founded by Roosevelt Chikwende in Malawi.</p>
+<p>It brings together a growing collection of digital products, each developed with its own purpose and identity.</p>
+<p>From cloud infrastructure to education and communication, Miyoni is about turning ideas into practical digital experiences.</p>
+<p>Our philosophy is simple: build with purpose, keep improving and think beyond borders.</p>
+</div>
+</div>
+</section>
+
+<section class="products" id="products">
+<div class="section-label">02 / OUR PRODUCTS</div>
+<h2>Different ideas.<br><span>One home.</span></h2>
+
+<div class="product-grid">
+
+<div class="card">
+<div class="number">01 / CLOUD DATABASE</div>
+<h3>SmartBase</h3>
+<p>Your data. Your backend. Simplified.</p>
+<p>A SQL-powered cloud database and backend platform that helps developers build applications without managing their own database servers.</p>
+<p>Features include database management, REST APIs, authentication, cloud file storage and developer tools.</p>
+<a href="https://smartbase.de5.net/" target="_blank">Visit SmartBase ↗</a>
+</div>
+
+<div class="card">
+<div class="number">02 / COMMUNICATION</div>
+<h3>Talkivo</h3>
+<p>A space for conversations.</p>
+<p>A Miyoni communication platform designed to connect people through digital conversations. Explore its website to discover its current features and experience.</p>
+<a href="https://talkivo.de5.net/" target="_blank">Visit Talkivo ↗</a>
+</div>
+
+<div class="card">
+<div class="number">03 / EDUCATION</div>
+<h3>XOOL</h3>
+<p>Technology for learning.</p>
+<p>An educational technology platform focused on digital learning and AI-powered study assistance. Its Study Helper project supports students with learning materials and AI assistance.</p>
+<a href="https://xool.de5.net/" target="_blank">Visit XOOL ↗</a>
+</div>
+
+<div class="card">
+<div class="number">04 / MIYONI PRODUCT</div>
+<h3>Zapamubas</h3>
+<p>Another idea in the Miyoni ecosystem.</p>
+<p>A digital product developed under the Miyoni brand. Its detailed description and features will be published after confirmation.</p>
+<a href="https://zapamubas.de5.net/" target="_blank">Visit Zapamubas ↗</a>
+</div>
+
+</div>
+</section>
+
+<section id="founder">
+<div class="section-label">03 / THE FOUNDER</div>
+<div class="founder-grid">
+<div>
+<img class="founder-image" src="assets/founder-office.png" alt="Roosevelt Chikwende, founder of Miyoni">
+</div>
+<div class="founder-text">
+<h2>Meet the <span>founder.</span></h2>
+<h3>Roosevelt Chikwende</h3>
+<div class="role">Founder of Miyoni · Technology Builder · Malawi</div>
+<p>Roosevelt Chikwende is the founder of Miyoni, an independent technology brand established to bring multiple digital product ideas under one identity.</p>
+<p>His work centres on exploring ideas, developing software and building platforms that solve practical problems.</p>
+<p>Through Miyoni, he is developing products in areas such as cloud services, education and communication.</p>
+<p>Miyoni represents a commitment to learning, building, improving and transforming ideas into working digital experiences.</p>
+</div>
+</div>
+</section>
+
+<div class="quote">
+<blockquote>"Not every battle is fought with weapons. Some are fought with patience, silence and self-belief."</blockquote>
+<p>Dream Big. Work Hard. Achieve More.</p>
+</div>
+
+<section class="vision" id="vision">
+<div class="section-label">04 / OUR VISION</div>
+<h2>Built on curiosity.<br><span>Driven by possibility.</span></h2>
+<p>Our vision is to grow Miyoni into a trusted home for useful digital products — creating technology that helps people learn, build, communicate and do more.</p>
+</section>
+
+<section class="contact" id="contact">
+<div class="section-label">05 / CONTACT</div>
+<h2>Let's connect.</h2>
+<p>For product enquiries, collaboration and general messages, contact the Miyoni team.</p>
+<a href="mailto:YOUR_EMAIL_ADDRESS">Contact Miyoni ↗</a>
+</section>
+
+</main>
+
+<footer>
+<div class="logo">MIYONI<span>.</span></div>
+<div>Ideas into technology.</div>
+<div>© <span id="year"></span> Miyoni. All rights reserved.</div>
+</footer>
+
+<script>
+function toggleMenu(){
+document.getElementById("nav").classList.toggle("open");
+}
+document.querySelectorAll("#nav a").forEach(link=>{
+link.addEventListener("click",()=>{
+document.getElementById("nav").classList.remove("open");
+});
+});
+document.getElementById("year").textContent=new Date().getFullYear();
+</script>
+
+</body>
+</html>
